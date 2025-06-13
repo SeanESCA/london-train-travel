@@ -11,6 +11,8 @@
 
 ## Important Links
 
+-   [Stations, stops and piers](https://tfl.gov.uk/travel-information/stations-stops-and-piers/)
+
 -   [Standard Tube map (as of 06/2025)](https://content.tfl.gov.uk/standard-tube-map.pdf)
 
 -   [Station codes (as of 2014)](https://content.tfl.gov.uk/station-abbreviations.pdf)
@@ -28,40 +30,49 @@
 #### Underground
 
 - [x] Bakerloo
-- [] Central
+- [ ] Central
 - [x] Circle
 - [x] District
 - [x] Jubilee
-- [] Metropolitan
-- [] Northern
+- [x] Metropolitan
+- [ ] Northern
 - [x] Piccadilly
-- [] Victoria
-- [] Waterloo and City
+- [ ] Victoria
+- [x] Waterloo and City
 
 #### Misc
 
-- [] Elizabeth
-- [] London Trams
-- [] Thameslink
-- [] Liberty
-- [] Lioness
-- [] Mildmay
-- [] Suffragette
-- [] Weaver
-- [] Windrush
+- [ ] Elizabeth
+- [ ] London Trams
+- [ ] Thameslink
+- [ ] Liberty
+- [ ] Lioness
+- [ ] Mildmay
+- [ ] Suffragette
+- [ ] Weaver
+- [ ] Windrush
 
 ### Node Positions
 
 #### Underground
 
 - Bakerloo
+    - [ ] Elephant & Castle to Harrow & Wealdstone
 - Central
 - Circle
     - [x] Paddington to Hammersmith
     - [x] Paddington to Bayswater
 - District
+    - [ ] Ealing Broadway to Upminster
+    - [ ] Turnham Green to Richmond
+    - [ ] Wimbledon to Edgware Road
+    - [ ] Earl's Court to Kensington (Olympia)
 - Jubilee
 - Metropolitan
+    - [ ] Amersham to Aldgate
+    - [ ] Harrow-on-the-Hill to Uxbridge
+    - [ ] Moor Park to Watford
+    - [ ] Chalfont & Latimer to Chesham
 - Northern
 - Piccadilly
     - [x] Uxbridge to Cockfosters
@@ -69,7 +80,8 @@
     - [x] Hatton Cross to Heathrow Terminals 2 & 3
     - [x] Heathrow Terminal's 2 & 3 to Heathrow Terminal 5.
 - Victoria
-- Waterloo and City
+- W&C
+    - [ ] Waterloo to Bank
 
 #### Misc
 

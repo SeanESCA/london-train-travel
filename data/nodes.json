@@ -166,5 +166,60 @@
             "West Ham",
             "Stratford"
         ]
+    },
+    "w&c": {
+        "origin": "Waterloo",
+        "stm_str": [
+            "Waterloo",
+            "Bank"
+        ]
+    },
+    "metropolitan": {
+        "origin": "Amersham",
+        "ame_ald": [
+            "Amersham",
+            "Chalfont & Latimer",
+            "Chorleywood",
+            "Rickmansworth",
+            "Moor Park",
+            "Northwood",
+            "Northwood Hills",
+            "Pinner",
+            "North Harrow",
+            "Harrow-on-the-Hill",
+            "Northwick Park",
+            "Preston Road",
+            "Wembley Park",
+            "Finchley Road",
+            "Baker Street",
+            "Great Portland Street",
+            "Euston Square",
+            "King's Cross St Pancras",
+            "Farringdon",
+            "Barbican",
+            "Moorgate",
+            "Liverpool Street",
+            "Aldgate"
+        ],
+        "hoh_uxb": [
+            "Harrow-on-the-Hill",
+            "West Harrow",
+            "Rayners Lane",
+            "Eastcote",
+            "Ruislip Manor",
+            "Ruislip",
+            "Ickenham",
+            "Hillingdon",
+            "Uxbridge"
+        ],
+        "mop_waf": [
+            "Moor Park",
+            "Croxley",
+            "Watford"
+        ],
+        "cal_che": [
+            "Chalfont & Latimer",
+            "Chesham"
+        ]
     }
 }
