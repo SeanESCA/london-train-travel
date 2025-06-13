@@ -27,58 +27,58 @@
 
 #### Underground
 
--[x] Bakerloo
--[] Central
--[x] Circle
--[x] District
--[x] Jubilee
--[] Metropolitan
--[] Northern
--[x] Piccadilly
--[] Victoria
--[] Waterloo and City
+- [x] Bakerloo
+- [] Central
+- [x] Circle
+- [x] District
+- [x] Jubilee
+- [] Metropolitan
+- [] Northern
+- [x] Piccadilly
+- [] Victoria
+- [] Waterloo and City
 
 #### Misc
 
--[] Elizabeth
--[] London Trams
--[] Thameslink
--[] Liberty
--[] Lioness
--[] Mildmay
--[] Suffragette
--[] Weaver
--[] Windrush
+- [] Elizabeth
+- [] London Trams
+- [] Thameslink
+- [] Liberty
+- [] Lioness
+- [] Mildmay
+- [] Suffragette
+- [] Weaver
+- [] Windrush
 
 ### Node Positions
 
 #### Underground
 
--[] Bakerloo
--[] Central
+- Bakerloo
+- Central
 - Circle
-    -[x] Paddington to Hammersmith
-    -[x] Paddington to Bayswater
--[] District
--[] Jubilee
--[] Metropolitan
--[] Northern
+    - [x] Paddington to Hammersmith
+    - [x] Paddington to Bayswater
+- District
+- Jubilee
+- Metropolitan
+- Northern
 - Piccadilly
-    -[x] Uxbridge to Cockfosters
-    -[x] Acton Town to Hatton Cross
-    -[x] Hatton Cross to Heathrow Terminals 2 & 3
-    -[x] Heathrow Terminal's 2 & 3 to Heathrow Terminal 5.
--[] Victoria
--[] Waterloo and City
+    - [x] Uxbridge to Cockfosters
+    - [x] Acton Town to Hatton Cross
+    - [x] Hatton Cross to Heathrow Terminals 2 & 3
+    - [x] Heathrow Terminal's 2 & 3 to Heathrow Terminal 5.
+- Victoria
+- Waterloo and City
 
 #### Misc
 
--[] Elizabeth
--[] London Trams
--[] Thameslink
--[] Liberty
--[] Lioness
--[] Mildmay
--[] Suffragette
--[] Weaver
--[] Windrush
+- Elizabeth
+- London Trams
+- Thameslink
+- Liberty
+- Lioness
+- Mildmay
+- Suffragette
+- Weaver
+- Windrush
