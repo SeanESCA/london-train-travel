@@ -1,6 +1,5 @@
 {
     "circle": {
-        "origin": "Paddington",
         "pad_ham": [
             "Paddington",
             "Royal Oak",
@@ -42,7 +41,6 @@
         ]
     },
     "piccadilly": {
-        "origin": "Uxbridge",
         "uxb_cks": [
             "Uxbridge",
             "Hillingdon",
@@ -106,7 +104,6 @@
         ]
     },
     "bakerloo": {
-        "origin": "Elephant & Castle",
         "elc_haw": [
             "Elephant & Castle",
             "Lambeth North",
@@ -136,7 +133,6 @@
         ]
     },
     "jubilee": {
-        "origin": "Stanmore",
         "stm_str": [
             "Stanmore",
             "Canons Park",
@@ -168,14 +164,12 @@
         ]
     },
     "w&c": {
-        "origin": "Waterloo",
         "stm_str": [
             "Waterloo",
             "Bank"
         ]
     },
     "metropolitan": {
-        "origin": "Amersham",
         "ame_ald": [
             "Amersham",
             "Chalfont & Latimer",
@@ -220,6 +214,167 @@
         "cal_che": [
             "Chalfont & Latimer",
             "Chesham"
+        ]
+    },
+    "victoria": {
+        "bri_wac": [
+            "Brixton",
+            "Stockwell",
+            "Vauxhall",
+            "Pimlico",
+            "Victoria",
+            "Green Park",
+            "Oxford Circus",
+            "Warren Street",
+            "Euston",
+            "King's Cross St Pancras",
+            "Highbury & Islington",
+            "Finsbury Park",
+            "Seven Sisters",
+            "Tottenham Hale",
+            "Blackhorse Road",
+            "Walthamstow Central"
+        ]
+    },
+    "central": {
+        "wer_les": [
+            "West Ruislip",
+            "Ruislip Gardens",
+            "South Ruislip",
+            "Northolt",
+            "Greenford",
+            "Perivale",
+            "Hanger Lane",
+            "North Acton",
+            "East Acton",
+            "White City",
+            "Shepherd's Bush",
+            "Holland Park",
+            "Notting Hill Gate",
+            "Queensway",
+            "Lancaster Gate",
+            "Marble Arch",
+            "Bond Street",
+            "Oxford Circus",
+            "Tottenham Court Road",
+            "Holborn",
+            "Chancery Lane",
+            "St Paul's",
+            "Bank",
+            "Liverpool Street",
+            "Bethnal Green",
+            "Mile End",
+            "Stratford",
+            "Leyton",
+            "Leytonstone"
+        ],
+        "les_hai": [
+            "Leytonstone",
+            "Wanstead",
+            "Redbridge",
+            "Gants Hill",
+            "Newbury Park",
+            "Barkingside",
+            "Fairlop",
+            "Hainault"
+        ],
+        "hai_woo": [
+            "Hainault",
+            "Grange Hill",
+            "Chigwell",
+            "Woodford"
+        ],
+        "woo_les": [
+            "Woodford",
+            "South Woodford",
+            "Snaresbrook",
+            "Leytonstone"
+        ],
+        "woo_epp": [
+            "Woodford",
+            "Buckhurst Hill",
+            "Loughton",
+            "Debden",
+            "Theydon Bois",
+            "Epping"
+        ]
+    },
+    "northern": {
+        "ken_eus": [
+            "Kennington",
+            "Waterloo",
+            "Embankment",
+            "Charing Cross",
+            "Leicester Square",
+            "Tottenham Court Road",
+            "Goodge Street",
+            "Warren Street",
+            "Euston"
+        ],
+        "eus_elc": [
+            "Euston",
+            "King's Cross St Pancras",
+            "Angel",
+            "Old Street",
+            "Moorgate",
+            "Bank",
+            "London Bridge",
+            "Borough",
+            "Elephant & Castle"
+        ],
+        "elc_ken": [
+            "Elephant & Castle",
+            "Kennington"
+        ],
+        "ken_bat": [
+            "Kennington",
+            "Nine Elms",
+            "Battersea Power Station"
+        ],
+        "ken_mdn": [
+            "Kennington",
+            "Oval",
+            "Stockwell",
+            "Clapham North",
+            "Clapham Common",
+            "Clapham South",
+            "Balham",
+            "Tooting Bec",
+            "Tooting Broadway",
+            "Colliers Wood",
+            "South Wimbledon",
+            "Morden"
+        ],
+        "eus_egw": [
+            "Euston",
+            "Mornington Crescent",
+            "Camden Town",
+            "Chalk Farm",
+            "Belsize Park",
+            "Hampstead",
+            "Golders Green",
+            "Brent Cross",
+            "Hendon Central",
+            "Colindale",
+            "Burnt Oak",
+            "Edgware"
+        ],
+        "cat_hbt": [
+            "Camden Town",
+            "Kentish Town",
+            "Tufnell Park",
+            "Archway",
+            "Highgate",
+            "East Finchley",
+            "Finchley Central",
+            "West Finchley",
+            "Woodside Park",
+            "Totteridge & Whetstone",
+            "High Barnet"
+        ],
+        "fyc_mhl": [
+            "Finchley Central",
+            "Mill Hill East"
         ]
     }
 }

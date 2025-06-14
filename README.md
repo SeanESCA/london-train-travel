@@ -30,14 +30,14 @@
 #### Underground
 
 - [x] Bakerloo
-- [ ] Central
+- [x] Central
 - [x] Circle
 - [x] District
 - [x] Jubilee
 - [x] Metropolitan
-- [ ] Northern
+- [x] Northern
 - [x] Piccadilly
-- [ ] Victoria
+- [x] Victoria
 - [x] Waterloo and City
 
 #### Misc
@@ -59,6 +59,9 @@
 - Bakerloo
     - [ ] Elephant & Castle to Harrow & Wealdstone
 - Central
+    - [ ] West Ruislip to Leytonstone
+    - [ ] Leytonstone to Snaresbrook
+    - [ ] Woodford to Epping
 - Circle
     - [x] Paddington to Hammersmith
     - [x] Paddington to Bayswater
@@ -68,18 +71,26 @@
     - [ ] Wimbledon to Edgware Road
     - [ ] Earl's Court to Kensington (Olympia)
 - Jubilee
+    - [ ] Stanmore to Stratford
 - Metropolitan
     - [ ] Amersham to Aldgate
     - [ ] Harrow-on-the-Hill to Uxbridge
     - [ ] Moor Park to Watford
     - [ ] Chalfont & Latimer to Chesham
 - Northern
+    - [ ] Kennington to Elephant & Castle
+    - [ ] Kennington to Battersea
+    - [ ] Kennington to Morden
+    - [ ] Euston to Edgware
+    - [ ] Camden Town to High Barnet
+    - [ ] Finchley Central to Mill Hill East
 - Piccadilly
     - [x] Uxbridge to Cockfosters
     - [x] Acton Town to Hatton Cross
     - [x] Hatton Cross to Heathrow Terminals 2 & 3
     - [x] Heathrow Terminal's 2 & 3 to Heathrow Terminal 5.
 - Victoria
+    - [ ] Brixton to Walthamstow Central
 - W&C
     - [ ] Waterloo to Bank
 

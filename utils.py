@@ -62,7 +62,7 @@ def get_journey(driver):
 
     # Check extraction.
     assert len(journey) == len(timestamps)
-    print(f'Number of stations: {len(journey)}')
+    assert len(journey) > 0, "No stops found. Check that the url is correct."
 
     return {
         "journey": journey,
