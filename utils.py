@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import By
 def get_undergound_stations(driver):
     
     driver.get("https://en.wikipedia.org/wiki/List_of_London_Underground_stations")
-    stations: list = [station.text for station in driver.find_elements(By.CSS_SELECTOR, ".wikitable tbody tr th:first-child a")]
-    areas: list = [area.text for area in driver.find_elements(By.CSS_SELECTOR, ".wikitable tbody tr td:last-child a")]
+    stations: list = [station.text for station in driver.find_elements(By.CSS_SELECTOR, ".wikitable tbody tr th:first-child > a")]
+    areas: list = [area.text for area in driver.find_elements(By.CSS_SELECTOR, ".wikitable tbody tr td:last-child > a")]
 
     lines = []
     for entry in driver.find_elements(By.CSS_SELECTOR, ".wikitable tbody tr td:nth-child(3)"):
@@ -44,8 +44,8 @@ def get_journey(driver):
     for entry in driver.find_elements(By.CSS_SELECTOR, 'span[id^=transit_group] h2'):
         # Remove '.' from abbreviations in the station name.
         station: str = re.sub(r"\.", "", entry.text)
-        # Remove 'Station' from the station name unless it refers to Battersea Power Station.
-        station = re.sub(r"(?<!Battersea Power) Station", r"", station)
+        # Remove 'Station' from the station name.
+        station = re.sub(r"( Power)? Station", r"", station)
         # Correct for Harrow-on-the-Hill.
         if station == "Harrow on the Hill":
             station = "Harrow-on-the-Hill"
