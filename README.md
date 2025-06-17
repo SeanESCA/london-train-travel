@@ -40,17 +40,20 @@
 - [x] Victoria
 - [x] Waterloo and City
 
+#### Overground
+
+- [x] Liberty
+- [x] Lioness
+- [ ] Mildmay
+- [x] Suffragette
+- [ ] Weaver
+- [ ] Windrush
+
 #### Misc
 
 - [ ] Elizabeth
 - [ ] London Trams
 - [ ] Thameslink
-- [ ] Liberty
-- [ ] Lioness
-- [ ] Mildmay
-- [ ] Suffragette
-- [ ] Weaver
-- [ ] Windrush
 
 ### Node Positions
 

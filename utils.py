@@ -33,42 +33,6 @@ def get_undergound_stations(driver):
         "areas": areas
     }
 
-def get_journey(driver):
-    # Open journey details.
-    for element in driver.find_elements(By.CSS_SELECTOR, 'button[aria-label="Toggle details"]'):
-        if element.is_displayed():
-            element.click()
-    
-    # Collect stations.
-    journey = []
-    for entry in driver.find_elements(By.CSS_SELECTOR, 'span[id^=transit_group] h2'):
-        # Remove '.' from abbreviations in the station name.
-        station: str = re.sub(r"\.", "", entry.text)
-        # Remove 'Station' from the station name.
-        station = re.sub(r"( Power)? Station", r"", station)
-        # Correct for Harrow-on-the-Hill.
-        if station == "Harrow on the Hill":
-            station = "Harrow-on-the-Hill"
-        if len(station) > 0:
-            journey.append(station)
-
-    # Collect timestamps.
-    timestamps = []
-    for entry in driver.find_elements(By.CSS_SELECTOR, 'span[id^=transit_group] div:has(~ h2), span[id^=transit_group] > div > div:first-child'):
-        timestamp_str: str = re.sub(r"\u202f", "", entry.text)
-        if len(timestamp_str) > 0:
-            timestamp = datetime.strptime(timestamp_str, "%I:%M%p")
-            timestamps.append(timestamp)
-
-    # Check extraction.
-    assert len(journey) == len(timestamps)
-    assert len(journey) > 0, "No stops found. Check that the url is correct."
-
-    return {
-        "journey": journey,
-        "timestamps": timestamps
-    }
-
 def find_stations_in_range(mat: np.array, start_ind: int, travel_time: float, stations_ind: list) -> None:
     '''
     Find stations within the travel time using recursion.
